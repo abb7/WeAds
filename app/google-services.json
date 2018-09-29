@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1085184866980",
+    "firebase_url": "https://weadds1.firebaseio.com",
+    "project_id": "weadds1",
+    "storage_bucket": "weadds1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085184866980:android:427285d10bc20b07",
+        "android_client_info": {
+          "package_name": "com.example.odatem.weadds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085184866980-a81pr1hcfreooioh346dh5q5kujh9rke.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.odatem.weadds",
+            "certificate_hash": "f9c5a62e96e7f0d6418cf7b123bc3d88f29e7b51"
+          }
+        },
+        {
+          "client_id": "1085184866980-oahdgtcreauu7nfg4ebnpnc8o4uk5agr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBihFJm5Ay4KG_VhHee56VZ5OjdnPMRc24"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085184866980-oahdgtcreauu7nfg4ebnpnc8o4uk5agr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
