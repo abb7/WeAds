@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity  {
 
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference myRef = database.getReference("users").push();
-    DatabaseReference myRef2 = database.getReference("Screens");
+
 
     User user;
     EditText id;
@@ -94,6 +94,7 @@ public class MainActivity extends AppCompatActivity  {
 //                TV_intereset.setVisibility(View.GONE);
 
                 Intent i = new Intent(MainActivity.this, BeaconList.class);
+                i.putExtra("USER_ID", id.getText().toString().trim());
                 startActivity(i);
 
 
